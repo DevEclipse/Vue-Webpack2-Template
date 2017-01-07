@@ -1,0 +1,30 @@
+{
+  "name": "jjets-client",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Ralph Christian D. Eclipse <nuberz143@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "*",
+    "vuex": "*",
+    "vue-router": "*",
+    "vuex-router-sync": "*",
+    "vue-material": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-latest": "*",
+    "cross-env": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "vue-loader": "*",
+    "vue-template-compiler": "*",
+    "webpack": "^2.2.0-rc.3",
+    "webpack-dev-server": "^2.2.0-rc.0"
+  }
+}
